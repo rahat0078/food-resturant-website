@@ -237,7 +237,10 @@ a{
 
 #social{
     height: 671px;
-    background-image: url(/assets/social-bg.png);
+    background-image: linear-gradient(360deg,rgba(255, 255, 255, 0.712),rgba(255, 255, 255, 0.712)), url(../assets/social-bg.png);
+}
+.container h1 {
+    color: white;
 }
 #social .container{
     width: 830px;
